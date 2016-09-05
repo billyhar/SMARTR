@@ -277,7 +277,6 @@ header .navbar-default .navbar-nav li a {
 --*/
 #feature {
   background: url("../img/featue-bg.jpg");
-  background-position: 50% 94px;
   width: 100%;
   display: block;
   position: relative;
