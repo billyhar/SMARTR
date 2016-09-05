@@ -212,9 +212,8 @@ header .navbar-default .navbar-nav li a {
   letter-spacing: 3px;
 }
 
-/*--
-	blocks
---*/
+/*Blocks*/
+
 #intro {
   padding: 100px 0;
   min-height: 10%;
@@ -268,13 +267,80 @@ header .navbar-default .navbar-nav li a {
   padding-top: 20px;
 }
 
+/*Hover stuff*/
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+/*//divert-slider*/
+
+#divert-slider{
+  background: url("../img/login-bg.png") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#divert-slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+
+#divert-slider .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+
+#divert-slider .block h1 {
+  font-weight: 100;
+  font-size: 48px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+
+.textchange{
+
+margin-top: 20%;
+font-size: 30px;
+
+}
 
 
 
 
-/*--
-	Feature Start 
---*/
+/*Phone Hand slider*/
+
 #feature {
   background: url("../img/featue-bg.jpg");
   width: 100%;
@@ -290,12 +356,14 @@ header .navbar-default .navbar-nav li a {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 200px 0;
+  padding: 300px 0;
 }
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  color: #fff;
+  font-weight: 200;
 }
 #feature p {
   color: #8d8f92;
