@@ -17,6 +17,15 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
 
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/google-map-init.js"></script>
+
+
+<!--     <script src="js/main.js"></script> -->
+
+
   </head>
   <body>
 
@@ -51,7 +60,7 @@
               </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">About</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="login.html">Login</a></li>
                   </ul>
@@ -63,84 +72,18 @@
       </div>
     </header>
         
-        <!-- Slider Start -->
-        <section id="global-header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block">
-                  <h1>Login</h1>
-                  <form>
-                  <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Address" name="email">
-                    </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password" name="password">
-                    <br>
-                    <br>
-                    <button type="button" onclick="check(this.form)" value="Login" class="btn btn-default Login">Let me in!</button>
-                    </div>
-                      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Register</button>
-                      <div id="demo" class="collapse">
-                   <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Full Name">
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Address">
-                      </div>
-                      <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Address">
-                      </div>
-                      <div class="form-group">
-                      <input type="date" class="form-control" placeholder="Date of Birth">
-                      </div>
+    
 
-                      <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password">
-                      </div>
-
-                      <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Confirm Password">
-                      </div>
-
-                      <button type="button" onclick="check(this.form)" value="Login" class="btn btn-default Login">Sign Me Up!</button>
-                    </div>
-
-                  </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    <section id="map">
+      <div class="container">
+        <div class="row">
+      
+        </div>
+      </div>
+    </section>
 
         
-
-
-        <script language="javascript">
-function check(form)
-{
-if (form.email.value == "billis.h@hotmail.com" && form.password.value === "billy") 
-{
-
-window.open('map.html')
-
-}
-
-else
-{
-
-alert("Email or Password Incorrect, Try again")
-
-}
-
-}
-
-
-
-        </script>
-
-        <!-- footer Start -->
+    <!-- footer Start -->
         <footer>
           <div class="container">
             <div class="row">

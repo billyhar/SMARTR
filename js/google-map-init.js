@@ -4,9 +4,9 @@ jQuery(document).ready(function() {
 
     function b() {
         var a = {
-                zoom: 11,
+                zoom: 15,
                 scrollwheel: false,
-                center: new google.maps.LatLng(40.67, -73.94),
+                center: new google.maps.LatLng(-41.2865, 174.7762),
                 styles: [{
                     "featureType": "landscape",
                     "stylers": [
@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
                     "featureType": "poi",
                     "stylers": [
                         {
-                            "saturation": -100
+                            "saturation": -50
                         },
                         {
                             "lightness": 51
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
             b = document.getElementById("map"),
             c = new google.maps.Map(b, a);
         new google.maps.Marker({
-            position: new google.maps.LatLng(40.67, -73.94),
+            position: new google.maps.LatLng(-41.2865, 174.7762),
             map: c,
             title: "Snazzy!"
         })
