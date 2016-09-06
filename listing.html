@@ -18,21 +18,31 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/dropzone.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
 
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
 
-
-<!--     <script src="js/main.js"></script> -->
-
-
   </head>
+
+
+<!-- //Loading cogs -->
+  <script language="javascript">
+
+  $(window).load(function() {
+    $(".se-pre-con").fadeOut("fast");;
+  });
+
+</script>
+
+
+
+
   <body>
 
-
+<div class="se-pre-con"></div>
   <style>
 
   @font-face {
