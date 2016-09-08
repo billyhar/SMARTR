@@ -129,7 +129,7 @@ jQuery(document).ready(function() {
         new google.maps.Marker({
             position: new google.maps.LatLng(-41.2865, 174.7762),
             map: c,
-            title: "Snazzy!"
+            title: "Hire Available!!"
         })
     }
     google.maps.event.addDomListener(window, "load", b);

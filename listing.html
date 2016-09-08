@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+   
 
     
     <!-- Js -->
@@ -24,6 +25,7 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
+    <script src="js/dropzone.js"></script>
 
   </head>
 
@@ -41,6 +43,7 @@
 
 
   <body>
+
 
 <div class="se-pre-con"></div>
   <style>
@@ -94,6 +97,12 @@
                 <div class="block">
 
                   <h1>List your vehicle</h1>
+
+<form action="/file-upload"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
+
+
                   <form>
                   <div class="form-group">
                       <input type="text" class="form-control" placeholder="Registration Number" name="email">

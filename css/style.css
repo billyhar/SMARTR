@@ -289,6 +289,20 @@ header .navbar-default .navbar-nav li a {
 }
 
 
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
 .hvr-pop {
   display: inline-block;
   vertical-align: middle;
@@ -658,4 +672,16 @@ margin: auto;
     height: 100%;
     z-index: 9999;
     background: url(../img/gears.gif) center no-repeat #fff;
+}
+
+
+/*DropZOne thing*/
+
+.dropzone{
+cursor: pointer;
+width: 10%;
+margin-left: auto;
+margin-right: auto;
+
+
 }
